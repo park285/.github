@@ -51,7 +51,7 @@ PR 제목, 본문, 커밋 메시지, 리뷰 코멘트는 한국어로 씁니다.
 ### 버전
 
 - 루트 `VERSION`에 `v` 접두사 없는 `MAJOR.MINOR.PATCH`를 둡니다. 태그에는 `v`를 붙입니다.
-- 지난 태그 이후 `type(scope)!:` 커밋이나 CHANGELOG의 "(파괴적)" 항목이 하나라도 있으면 MAJOR를 올립니다. 기능만 늘었으면 MINOR, 수정·보안·운영 안정화만 있으면 PATCH입니다.
+- 지난 태그 이후 `type(scope)!:` 커밋이나 CHANGELOG의 breaking change 항목(기존 "파괴적 변경" 표기 포함)이 하나라도 있으면 MAJOR를 올립니다. 기능만 늘었으면 MINOR, 수정·보안·운영 안정화만 있으면 PATCH입니다.
 - Go 모듈은 MAJOR를 올릴 때 module path의 `/vN`도 함께 바꿉니다.
 
 ### CHANGELOG와 릴리스 커밋

@@ -6,9 +6,13 @@ GitHub Release 본문 템플릿입니다. 제목은 태그와 같은 `vX.Y.Z`로
 해당 없는 섹션은 지웁니다. 안내 주석은 게시된 본문에 표시되지 않습니다.
 -->
 
+## Breaking changes
+
+<!-- 업그레이드할 때 조치가 필요한 변경만 적고, 항목마다 무엇이 깨지는지 씁니다. 없으면 이 절을 지웁니다. -->
+
 ## 변경 사항
 
-<!-- CHANGELOG `## vX.Y.Z - YYYY-MM-DD` 절의 요약입니다. 파괴적 변경은 "(파괴적)"으로 표시하고 맨 위에 둡니다. 전체 목록은 태그 기준 CHANGELOG 링크로 둡니다.
+<!-- CHANGELOG `## vX.Y.Z - YYYY-MM-DD` 절의 요약입니다. 전체 목록은 태그 기준 CHANGELOG 링크로 둡니다.
 예: 전체 목록은 [CHANGELOG vX.Y.Z](https://github.com/park285/<repo>/blob/vX.Y.Z/CHANGELOG.md)에 있습니다. -->
 
 ## 호환성과 배포 순서
